@@ -10,10 +10,10 @@ Hardware design reference from [1].
 ![](https://i.imgur.com/73tj2i3.png)
 
 
-In order to handle longer sequence input, rather than simply making the PE array longer, I add an FIFO at the end of PE array, reducing the cost of the area of PE.
-
+In order to handle longer sequence input, rather than simply making the PE array longer, I add an FIFO at the end of PE array, reducing the area cost of adding more PEs
 
 ![](https://i.imgur.com/FZjoWSR.gif)
+
 Illustration of PE array movement with line buffer attached.
 
 ## Reference
